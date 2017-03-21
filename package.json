@@ -11,7 +11,8 @@
     "lint:md": "globstar --node -- markdownlint **/*.md",
     "test": "run-s lint:*",
     "commitmsg": "validate-commit-msg",
-    "precommit": "npm test"
+    "precommit": "npm test",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "config": {
     "commitizen": {
@@ -29,6 +30,7 @@
     "husky": "0.13.2",
     "markdownlint-cli": "0.2.0",
     "npm-run-all": "4.0.2",
+    "semantic-release": "6.3.2",
     "validate-commit-msg": "2.11.2"
   }
 }
