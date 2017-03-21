@@ -1,0 +1,34 @@
+{
+  "name": "@travi/semantic-release-tester",
+  "description": "a dummy npm package for testing various release scenarios",
+  "version": "0.0.0-semantically-released",
+  "license": "MIT",
+  "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
+  "repository": "travi/semantic-release-tester",
+  "bugs": "https://github.com/travi/semantic-release-tester/issues",
+  "homepage": "https://github.com/travi/semantic-release-tester#readme",
+  "scripts": {
+    "lint:md": "globstar --node -- markdownlint **/*.md",
+    "test": "run-s lint:*",
+    "commitmsg": "validate-commit-msg",
+    "precommit": "npm test"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "publishConfig": {
+    "access": "public",
+    "tag": "alpha"
+  },
+  "devDependencies": {
+    "@travi/any": "1.0.4",
+    "cz-conventional-changelog": "2.0.0",
+    "globstar": "1.0.0",
+    "husky": "0.13.2",
+    "markdownlint-cli": "0.2.0",
+    "npm-run-all": "4.0.2",
+    "validate-commit-msg": "2.11.2"
+  }
+}
