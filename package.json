@@ -33,7 +33,7 @@
     "husky": "0.13.3",
     "markdownlint-cli": "0.3.0",
     "npm-run-all": "4.0.2",
-    "semantic-release": "6.3.2",
+    "semantic-release": "6.3.6",
     "validate-commit-msg": "2.12.1"
   }
 }
