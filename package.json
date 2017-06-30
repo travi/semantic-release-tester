@@ -30,7 +30,7 @@
     "@travi/any": "1.2.1",
     "cz-conventional-changelog": "2.0.0",
     "globstar": "1.0.0",
-    "husky": "0.14.1",
+    "husky": "0.14.2",
     "markdownlint-cli": "0.3.0",
     "npm-run-all": "4.0.2",
     "semantic-release": "6.3.6",
