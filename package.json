@@ -11,8 +11,7 @@
     "lint:md": "globstar --node -- markdownlint **/*.md",
     "test": "run-s lint:*",
     "commitmsg": "validate-commit-msg",
-    "precommit": "npm test",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "precommit": "npm test"
   },
   "config": {
     "commitizen": {
