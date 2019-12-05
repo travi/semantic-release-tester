@@ -26,7 +26,7 @@
     "prerelease": true
   },
   "devDependencies": {
-    "@travi/any": "2.0.6",
+    "@travi/any": "2.0.7",
     "cz-conventional-changelog": "3.0.2",
     "globstar": "1.0.0",
     "husky": "3.1.0",
