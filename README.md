@@ -10,7 +10,7 @@ a dummy npm package for testing various release scenarios
 
 <!--consumer-badges start -->
 
-[![license](https://img.shields.io/github/license/travi/semantic-release-tester.svg)](LICENSE)
+[![license](https://img.shields.io/github/license/travi-test/semantic-release-tester.svg)](LICENSE)
 [![npm](https://img.shields.io/npm/v/@travi/semantic-release-tester.svg?maxAge=2592000)](https://www.npmjs.com/package/@travi/semantic-release-tester)
 
 <!--consumer-badges start -->
@@ -23,9 +23,9 @@ a dummy npm package for testing various release scenarios
 
 <!--contribution-badges start -->
 
-[ci-link]: https://travis-ci.com/travi/semantic-release-tester
+[ci-link]: https://travis-ci.com/travi-test/semantic-release-tester
 
-[ci-badge]: https://img.shields.io/travis/com/travi/semantic-release-tester.svg?branch=master
+[ci-badge]: https://img.shields.io/travis/com/travi-test/semantic-release-tester.svg?branch=master
 
 [renovate-link]: https://renovatebot.com
 
