@@ -4,7 +4,6 @@ a dummy npm package for testing various release scenarios
 
 <!--status-badges start -->
 
-[![Build Status][ci-badge]][ci-link]
 [![Node CI Workflow Status][github-actions-ci-badge]][github-actions-ci-link]
 
 <!--status-badges end -->
@@ -23,10 +22,6 @@ a dummy npm package for testing various release scenarios
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 <!--contribution-badges start -->
-
-[ci-link]: https://travis-ci.com/travi-test/semantic-release-tester
-
-[ci-badge]: https://img.shields.io/travis/com/travi-test/semantic-release-tester.svg?branch=master
 
 [renovate-link]: https://renovatebot.com
 

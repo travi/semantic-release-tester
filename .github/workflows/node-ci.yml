@@ -17,5 +17,8 @@ jobs:
           node-version: 12.x
       - uses: bahmutov/npm-install@v1
       - run: npm test
+      - name: semantic-release
+        uses: cycjimmy/semantic-release-action@v2
         env:
-          CI: true
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
