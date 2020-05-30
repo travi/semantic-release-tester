@@ -19,8 +19,7 @@
     }
   },
   "publishConfig": {
-    "access": "public",
-    "tag": "alpha"
+    "access": "public"
   },
   "devDependencies": {
     "@travi/any": "2.0.9",
