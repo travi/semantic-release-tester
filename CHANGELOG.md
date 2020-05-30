@@ -4,3 +4,4 @@
 * another patch
 * another patch
 * prerelease
+* remove prerelease specification

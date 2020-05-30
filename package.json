@@ -22,9 +22,6 @@
     "access": "public",
     "tag": "alpha"
   },
-  "release": {
-    "prerelease": true
-  },
   "devDependencies": {
     "@travi/any": "2.0.9",
     "cz-conventional-changelog": "3.2.0",
