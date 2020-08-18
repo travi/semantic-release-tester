@@ -3,6 +3,9 @@ name: Node.js CI
   push:
     branches:
       - master
+      - alpha
+      - beta
+      - 'renovate/**'
   pull_request:
     branches:
       - master
