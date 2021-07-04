@@ -22,7 +22,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "@travi/any": "2.0.16",
+    "@travi/any": "2.0.17",
     "cz-conventional-changelog": "3.3.0",
     "globstar": "1.0.0",
     "husky": "7.0.0",
